@@ -10,7 +10,7 @@ The rules behind the catalog are in the **[Project Regulations](REGULATIONS_URL)
 
 ## 👉 Open the catalog
 
-**[Open the project catalog](CATALOG_URL)**
+**[Open the project catalog]((https://github.com/orgs/CoreDumped-ETSISI/projects/11))**
 
 You can filter projects by area, status, openness, level and technology.
 
