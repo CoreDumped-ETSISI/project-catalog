@@ -16,8 +16,8 @@ You can filter projects by area, status, openness, level and technology.
 
 | View | What it shows |
 |---|---|
-| **All projects** | Every project, grouped by status |
-| **Join a project** | Only the projects that are *Looking for members* |
+| **All Projects** | Every project, grouped by status |
+| **Join a Project** | Only the projects that are *Looking for members* |
 | **Collaborate** | Only the projects that are *Open to collaboration* |
 
 ---
@@ -33,7 +33,7 @@ Look at two things: what stage the project is in (**Status**) and how you can ta
 | 💡 **Proposal** | An approved idea looking for a team to get started. |
 | 🟢 **Active** | Under way, with regular activity. |
 | ⏸️ **Paused** | Temporarily on hold. The card gives the reason and the expected return date. |
-| ✅ **Done** | Goal achieved, with its closing documentation. You can use it and learn from it. |
+| ✅ **Completed** | Goal achieved, with its closing documentation. You can use it and learn from it. |
 | 🗄️ **Archived** | Abandoned or inactive for too long. The repository is read-only, but anyone can ask to pick it up again. |
 
 ### Openness
@@ -56,8 +56,8 @@ Each card also shows:
 
 ## 🙋 Join a project
 
-1. Pick a project that is **Looking for members** (the *Join a project* view).
-2. Read its card and its README: what it does, who they're looking for and how much time it takes.
+1. Pick a project that is **Looking for members** (the *Join a Project* view).
+2. Read its card and its README: what it does and who they're looking for.
 3. Ask to join the way the card says, usually by opening an **"I want to join"** issue in the project's repository. Say who you are, what you know (or want to learn) and how much time you have.
 4. The project lead will seek to reply within **7 days**. If the answer is no, they'll explain why.
 5. If you're in, you'll get access to the repository (and to the Discord channel, if there is one) and a first, simple task.
@@ -87,7 +87,7 @@ Some things that count as collaboration:
 Any **full member** or **active member** can propose a project.
 
 1. Check the catalog first. Joining a similar project is usually better than starting another one.
-2. Fill in the **[proposal form](https://github.com/CoreDumped-ETSISI/project-catalog/issues/new?template=project-proposal.yml)**. It asks what you want to achieve, **how we'll know it's done**, who leads it (and the team, if there is one), what resources it needs and whether anyone outside the association is involved.
+2. Fill in the **[proposal form](https://github.com/CoreDumped-ETSISI/projects/issues/new?template=project-proposal.yml)**. It asks what you want to achieve, **how we'll know it's done**, who leads it (and the team, if there is one), what resources it needs and whether anyone outside the association is involved.
 3. The Vice-Presidency for Projects & Innovation will seek to reply within **7 days**. If you need materials, the server or money, it's coordinated with whomever is in charge. A proposal can only be rejected for a stated reason, and you can appeal at the General Assembly.
 4. Once approved it will be labelled `approved`, it will enter the catalog as **Proposal**, and its repository will be created from the project template.
 
@@ -103,7 +103,7 @@ Tips for a proposal that works:
 
 ### What a card includes
 
-The [proposal form](https://github.com/CoreDumped-ETSISI/project-catalog/issues/new?template=project-proposal.yml) fills in the card for you: description, goal, definition of done, lead, team and profiles, area, level, technologies, openness, positions, time commitment, resources, external organization, repository, license and Discord channel.
+The [proposal form](https://github.com/CoreDumped-ETSISI/projects/issues/new?template=project-proposal.yml) fills in the card for you: description, goal, definition of done, lead, team and profiles, area, level, technologies, openness, positions, resources, external organization, repository, license and Discord channel.
 
 If the project is paused, the lead adds the reason and the expected return date to the card.
 
@@ -121,9 +121,9 @@ This is the summary. The details are in the Project Regulations.
 | Level 1 documentation (README, LICENSE, CONTRIBUTING, issues) | Within 4 weeks from becoming *Active* |
 | Rule of two: someone else has access and knows how it works | Always |
 | Set it to *Paused* (reason and return date) or propose a replacement if you leave | When it happens |
-| Closing report, level 2 documentation and a release to mark it *Done* | At the end |
+| Closing report, level 2 documentation and a release to mark it *Completed* | At the end |
 
-> 📦 **Existing projects**: open your card with the [proposal form](https://github.com/CoreDumped-ETSISI/project-catalog/issues/new?template=project-proposal.yml) before the deadline in the Project Regulations (February 2027).
+> 📦 **Existing projects**: open your card with the [proposal form](https://github.com/CoreDumped-ETSISI/projects/issues/new?template=project-proposal.yml) before the deadline in the Project Regulations (February 2027).
 
 A project with no activity and no card updates gets a formal warning after **6 weeks** and moves to *Paused* after **8 weeks**. Exam periods don't count, so nobody loses their project for studying.
 
@@ -131,7 +131,7 @@ A project with no activity and no card updates gets a formal warning after **6 w
 
 ## 🔒 Privacy and security
 
-Cards are public. Don't put emails, phone numbers or any other personal data in them: use your GitHub or Discord username. Never upload passwords, tokens or keys to any repository. If it happens, tell the Infrastructure team right away so the key can be revoked.
+Cards are public. Don't put emails, phone numbers or any other personal data in them: use your GitHub username. Never upload passwords, tokens or keys to any repository. If it happens, tell the Infrastructure team right away so the key can be revoked.
 
 ---
 
