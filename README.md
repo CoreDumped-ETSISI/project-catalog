@@ -103,7 +103,7 @@ Tips for a proposal that works:
 
 ### What a card includes
 
-The [proposal form](https://github.com/CoreDumped-ETSISI/project-catalog/issues/new?template=project-proposal.yml) fills in the card for you: description, goal, definition of done, lead, team and profiles, area, level, technologies, openness, places, time commitment, resources, external organization, repository, license and Discord channel.
+The [proposal form](https://github.com/CoreDumped-ETSISI/project-catalog/issues/new?template=project-proposal.yml) fills in the card for you: description, goal, definition of done, lead, team and profiles, area, level, technologies, openness, positions, time commitment, resources, external organization, repository, license and Discord channel.
 
 If the project is paused, the lead adds the reason and the expected return date to the card.
 
