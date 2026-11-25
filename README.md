@@ -56,12 +56,10 @@ Each card also shows:
 
 ## 🙋 Join a project
 
-To join a team you need to be a **full member** or an **active member** of Core Dumped. If you aren't one yet, all it takes is for two full members to propose you.
-
 1. Pick a project that is **Looking for members** (the *Join a project* view).
 2. Read its card and its README: what it does, who they're looking for and how much time it takes.
 3. Ask to join the way the card says, usually by opening an **"I want to join"** issue in the project's repository. Say who you are, what you know (or want to learn) and how much time you have.
-4. The project lead replies within **7 days**. If the answer is no, they'll explain why.
+4. The project lead will seek to reply within **7 days**. If the answer is no, they'll explain why.
 5. If you're in, you'll get access to the repository (and to the Discord channel, if there is one) and a first, simple task.
 
 New to the association? You can ask for a mentor for your first project.
@@ -72,7 +70,7 @@ Not sure where to start? Look for issues labeled `good first issue`, or come to 
 
 ## 🤝 Collaborate without joining
 
-Anyone can help in projects that are **Open to collaboration** (the *Collaborate* view), even if you aren't an active member yet. You don't need to ask permission: read the repository's CONTRIBUTING guide, open an issue or a pull request, and the team will review it.
+Anyone can help in projects that are **Open to collaboration** (the *Collaborate* view), even if you aren't an active member yet. You don't need to ask for permission: read the repository's CONTRIBUTING guide, open an issue or a pull request, and the team will review it.
 
 Some things that count as collaboration:
 
@@ -90,8 +88,8 @@ Any **full member** or **active member** can propose a project.
 
 1. Check the catalog first. Joining a similar project is usually better than starting another one.
 2. Fill in the **[proposal form](https://github.com/CoreDumped-ETSISI/project-catalog/issues/new?template=project-proposal.yml)**. It asks what you want to achieve, **how we'll know it's done**, who leads it (and the team, if there is one), what resources it needs and whether anyone outside the association is involved.
-3. The Vice-Presidency for Projects & Innovation replies within **7 days**. If you need materials, the server or money, it's coordinated with whoever is in charge. A proposal can only be rejected for a stated reason, and you can appeal at the general assembly.
-4. Once approved, the Projects Commissioner labels it `approved`, it enters the catalog as **Proposal**, and the Communications team creates its repository from the project template.
+3. The Vice-Presidency for Projects & Innovation will seek to reply within **7 days**. If you need materials, the server or money, it's coordinated with whomever is in charge. A proposal can only be rejected for a stated reason, and you can appeal at the General Assembly.
+4. Once approved it will be labelled `approved`, it will enter the catalog as **Proposal**, and its repository will be created from the project template.
 
 **Your proposal becomes the project card**: the same issue stays in the catalog for the whole life of the project.
 
@@ -105,7 +103,7 @@ Tips for a proposal that works:
 
 ### What a card includes
 
-The [proposal form](https://github.com/CoreDumped-ETSISI/project-catalog/issues/new?template=project-proposal.yml) fills in the card for you: description, goal, definition of done, lead, team, area, level, technologies, openness, places and profiles, time commitment, resources, external organization, repository, license and Discord channel.
+The [proposal form](https://github.com/CoreDumped-ETSISI/project-catalog/issues/new?template=project-proposal.yml) fills in the card for you: description, goal, definition of done, lead, team and profiles, area, level, technologies, openness, places, time commitment, resources, external organization, repository, license and Discord channel.
 
 If the project is paused, the lead adds the reason and the expected return date to the card.
 
@@ -120,7 +118,7 @@ This is the summary. The details are in the Project Regulations.
 | Update your card (the issue and its fields in the catalog) | Every month, in the first week |
 | Reply to anyone who asks to join | Within 7 days |
 | Have at least one `good first issue` | Whenever you're *Looking for members* |
-| Level 1 documentation (README, LICENSE, CONTRIBUTING, issues) | 4 weeks after becoming *Active* |
+| Level 1 documentation (README, LICENSE, CONTRIBUTING, issues) | Within 4 weeks from becoming *Active* |
 | Rule of two: someone else has access and knows how it works | Always |
 | Set it to *Paused* (reason and return date) or propose a replacement if you leave | When it happens |
 | Closing report, level 2 documentation and a release to mark it *Done* | At the end |
@@ -140,4 +138,4 @@ Cards are public. Don't put emails, phone numbers or any other personal data in 
 ## 📬 Contact
 
 - **Vice-Presidency for Projects & Innovation**: @Djavii
-- **Core Dumped Email**: coredumped@etsisi.upm.es
+- **Core Dumped Email**: coredumped.etsisi@upm.es
