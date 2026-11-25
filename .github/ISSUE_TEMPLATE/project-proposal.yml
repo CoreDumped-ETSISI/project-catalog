@@ -52,6 +52,7 @@ body:
     attributes:
       label: Team
       description: Current members, if there are any (GitHub usernames).
+      placeholder: "@username0, @username1, @username2"
     validations:
       required: false
 
