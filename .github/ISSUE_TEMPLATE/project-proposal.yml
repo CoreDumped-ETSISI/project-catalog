@@ -1,0 +1,193 @@
+name: Project proposal
+description: Propose a new project for the Core Dumped catalog. Only full members and active members can propose projects.
+title: "Project: "
+labels: ["proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a project! Once submitted, this issue becomes the project's **card** in the catalog.
+
+        - Only **full members** and **active members** can propose projects.
+        - Have an idea but don't want to lead it? Submit it to the semester's **call for ideas** instead.
+        - The Vice-Presidency for Projects & Innovation will reply within **7 days**.
+
+        ⚠️ This card is public. **Don't include emails, phone numbers or any other personal data.** Use GitHub or Discord usernames.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is the project? Explain it in two or three sentences.
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What do you want to achieve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      description: 'How will we know it''s finished? Be concrete, not something like "make an app". Tip: define a first version you can finish in one semester.'
+    validations:
+      required: true
+
+  - type: input
+    id: lead
+    attributes:
+      label: Project lead
+      description: GitHub username. The lead must be a full member or an active member.
+      placeholder: "@username"
+    validations:
+      required: true
+
+  - type: textarea
+    id: team
+    attributes:
+      label: Team
+      description: Current members, if there are any (GitHub usernames).
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: You can choose more than one.
+      multiple: true
+      options:
+        - Software
+        - Computer Engineering
+        - Data & AI
+    validations:
+      required: true
+
+  - type: dropdown
+    id: level
+    attributes:
+      label: Level
+      description: Beginner means newcomers are welcome and no previous experience is needed.
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+    validations:
+      required: true
+
+  - type: input
+    id: technologies
+    attributes:
+      label: Technologies
+      description: Languages, frameworks, hardware...
+      placeholder: "Python, ESP32, MQTT..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: openness
+    attributes:
+      label: Openness
+      description: How can people take part? "Looking for members" and "Open to collaboration" can go together. A new project is almost always "Looking for members".
+      multiple: true
+      options:
+        - Looking for members
+        - Open to collaboration
+        - Closed
+    validations:
+      required: true
+
+  - type: textarea
+    id: places
+    attributes:
+      label: Places and profiles
+      description: Only if "Looking for members". How many places are there and which profiles are you looking for?
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: resources
+    attributes:
+      label: Resources
+      description: What will the project need from the association? Leave everything unticked if it needs nothing.
+      options:
+        - label: Materials from the inventory
+        - label: Server (GitLab, deployments...)
+        - label: 3D printer
+        - label: Money (needs approval from the Treasury)
+
+  - type: textarea
+    id: resources-details
+    attributes:
+      label: Resource details
+      description: If you ticked anything above, explain what exactly and how much.
+    validations:
+      required: false
+
+  - type: textarea
+    id: external
+    attributes:
+      label: External organization
+      description: Is anyone outside the association involved (a company, a research group, another association)? Who? Projects with external organizations are approved by the Board and need a signed agreement before starting.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: repository
+    attributes:
+      label: Repository
+      options:
+        - Needs a new public repository
+        - Needs a private repository
+        - Already has a repository in the organization
+    validations:
+      required: true
+
+  - type: input
+    id: repository-link
+    attributes:
+      label: Repository link
+      description: Only if the project already has a repository.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: license
+    attributes:
+      label: License
+      options:
+        - GPL-3.0 (recommended)
+        - MIT
+        - Apache-2.0
+        - CC BY-SA 4.0 (documentation)
+        - Other (explain in the description)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: discord
+    attributes:
+      label: Discord channel
+      description: Do you want a Discord channel for the project?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I'm a full member or an active member.
+          required: true
+        - label: I've checked the catalog and there's no similar project I could join instead.
+          required: true
+        - label: This card contains no personal data (emails, phone numbers...).
+          required: true
