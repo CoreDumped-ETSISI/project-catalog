@@ -12,13 +12,13 @@ body:
         - Have an idea but don't want to lead it? Submit it to the semester's **call for ideas** instead.
         - The Vice-Presidency for Projects & Innovation will reply within **7 days**.
 
-        ⚠️ This card is public. **Don't include emails, phone numbers or any other personal data.** Use GitHub or Discord usernames.
+        ⚠️ This card is public. **Don't include emails, phone numbers or any other personal data.** Use GitHub usernames.
 
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: What is the project? Explain it in two or three sentences.
+      description: What does it do? 20 words maximum.
     validations:
       required: true
 
@@ -35,6 +35,15 @@ body:
     attributes:
       label: Definition of done
       description: 'How will we know it''s finished? Be concrete, not something like "make an app". Tip: define a first version you can finish in one semester.'
+    validations:
+      required: true
+
+  - type: input
+    id: milestone
+    attributes:
+      label: Next milestone
+      description: What comes next and when.
+      placeholder: "Working prototype by March"
     validations:
       required: true
 
@@ -110,6 +119,15 @@ body:
       description: Only if "Looking for members". How many places are there and which profiles are you looking for?
     validations:
       required: false
+
+  - type: textarea
+    id: how-to-join
+    attributes:
+      label: How to join
+      description: Concrete steps for someone who wants to join or collaborate.
+      placeholder: Open an "I want to join" issue in the project's repository.
+    validations:
+      required: true
 
   - type: checkboxes
     id: resources
